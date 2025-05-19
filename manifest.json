@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "HTMLコードテスター高速オープナー",
+  "version": "1.0",
+  "description": "選択したHTMLコードを、即座にHTMLコードテスターで開きます。",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "テスターで実行",
+    "default_icon": {
+      "32": "icon32.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
