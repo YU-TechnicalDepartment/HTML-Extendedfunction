@@ -11,7 +11,6 @@
 
    ```sh
    git clone https://github.com/YU-TechnicalDepartment/HTML-Extendedfunction.git
-   cd HTML-Extendedfunction
    ```
 2. **Google Chrome の拡張機能ページ** (`chrome://extensions/`) を開きます。
 3. **「デベロッパーモード」** を有効にします。
