@@ -21,4 +21,14 @@
 # 使用方法
 HTMLを選択した状態で、拡張機能のアイコンをクリックするとHTMLのコードテストができます。
 # ブックマーク版
-![ブックマーク](bookmark.svg)
+```
+javascript:(function(){
+  var selectedText = window.getSelection().toString();
+  if (selectedText) {
+    window.location.href = "https://yu-technicaldepartment.github.io/html.github.io/?input=" + encodeURIComponent(selectedText);
+  } else {
+    alert("HTMLコードを選択してください。");
+  }
+})();
+
+```
